@@ -1,4 +1,7 @@
-# gatsby-plugin-google-tagmanager
+# gatsby-plugin-google-tagmanager-delayed
+
+Fork of gatsby-plugin-google-tagmanager that delays loading of GTM by placing it
+at the end of body and adding a half-second delay.
 
 Easily add Google Tagmanager to your Gatsby site.
 

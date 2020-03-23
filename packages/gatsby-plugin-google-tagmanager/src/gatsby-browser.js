@@ -5,7 +5,7 @@ exports.onRouteUpdate = (_, pluginOptions) => {
   ) {
     // wrap inside a timeout to ensure the title has properly been changed
     setTimeout(() => {
-      window.dataLayer.push({ event: `gatsby-route-change` })
+      window.dataLayer && window.dataLayer.push({ event: `gatsby-route-change` })
     }, 50)
   }
 }
